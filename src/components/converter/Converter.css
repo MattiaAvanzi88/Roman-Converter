@@ -1,0 +1,23 @@
+.converter-container {
+    text-align: center;
+    padding: 40px;
+    border-radius: 50px;
+    margin: 5% 20%  0 20%;
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fafafa;
+}
+
+.converter-input {
+    width: 50%;
+    height: 80px;
+    border: solid;
+    margin-bottom: 30px;
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 31px;
+    text-align: center;
+    font-size: 25px;
+    outline: none;
+}
