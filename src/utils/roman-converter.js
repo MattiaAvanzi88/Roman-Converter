@@ -6,7 +6,7 @@ function converter(number,map) {
 
     //check if the input is a positive integer
     if( number < 1 && !Number.isInteger(number))
-        return -1;
+        return [];
 
     //define the result array
     //copy the input in a local variable
