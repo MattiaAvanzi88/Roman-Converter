@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
 import romanConverter from './utils/roman-converter';
 import romanMap from './utils/roman-map';
-import Converter from './Converter';
+import Converter from './components/converter/Converter';
 
 class App extends Component {
 
