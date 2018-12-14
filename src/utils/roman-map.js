@@ -1,10 +1,9 @@
 // define the map for binding the roman symbols with 
 // their numeric values.
 // Adding also composed symbols to avoid the 
-// repetition of three equals symbols and in descending order
-// to optimise the conversion algorthm
+// repetition of three equals symbols
 
-const RomanMap = {
+const romanMap = {
     1000 : "M",
     900 : "CM",
     500: "D",
@@ -20,4 +19,4 @@ const RomanMap = {
     1: "I"
 }
 
-export default RomanMap;
+export default romanMap;
